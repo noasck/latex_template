@@ -1,7 +1,7 @@
 # latex_template
 Template for general-purpose latex files
 # Snippets
-
+``` yaml
 '.tex':
   'limit':
     'prefix': 'lim'
@@ -81,3 +81,4 @@ Template for general-purpose latex files
   'includegraphics':
     'prefix': 'image'
     'body': '\\\\begin{center} \\\\includegraphics\\\[scale=$1\\\]\\\{$2\\\} \\\\end\\\{center\\\}'
+ ```
